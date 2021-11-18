@@ -1,0 +1,6 @@
+# /usr/src/linux
+patch -Np1 -i <PATCH>.patch
+make -j6 && make modules_install && make install
+emerge @module-rebuild
+genkernel --install --kernel-config=.config initramfs
+grub-mkconfig -o /boot/grub/grub.cfg
