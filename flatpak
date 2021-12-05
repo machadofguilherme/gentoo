@@ -1,0 +1,4 @@
+emerge -C pyparsing setuptools_scm
+>dev-python/pyparsing-2.4.7-r1 (package.mask)
+emerge -1 pyparsing
+emerge flatpak
