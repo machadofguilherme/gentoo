@@ -1,0 +1,7 @@
+sys-devel/clang limite.conf
+dev-qt/qtlocation limite.conf
+dev-qt/qtwebkit limite.conf
+dev-lang/spidermonkey limite.conf
+dev-qt/qtwebengine limite.conf
+sys-devel/gcc limite.conf
+sys-devel/llvm limite.conf
