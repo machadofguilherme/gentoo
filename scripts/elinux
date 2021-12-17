@@ -1,5 +1,6 @@
-# /usr/src/linux
-make -j6 && make modules_install && make install
+#!/bin/sh
+
+make -j4 && make -j4 modules_install && make -j4 install
 emerge @module-rebuild
 genkernel --install --kernel-config=.config initramfs
 grub-mkconfig -o /boot/grub/grub.cfg
