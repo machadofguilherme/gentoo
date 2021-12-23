@@ -1,0 +1,7 @@
+#!/bin/sh
+
+systemctl mask tmp.mount
+mount /var/tmp/portage
+mkdir /var/tmp/notmpfs
+chown portage:portage /var/tmp/notmpfs
+chmod 775 /var/tmp/notmpfs

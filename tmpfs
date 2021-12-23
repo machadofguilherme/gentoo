@@ -1,0 +1,7 @@
+#
+# ADICIONAR AO FSTAB
+#
+
+# tmpfs
+tmpfs /var/tmp         tmpfs rw,nosuid,noatime,nodev,size=2G,mode=1777 0 0
+tmpfs		/var/tmp/portage		tmpfs	size=2G,uid=portage,gid=portage,mode=775,nosuid,noatime,nodev	0 0
