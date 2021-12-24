@@ -30,6 +30,18 @@ super + ctrl + r
 super + ctrl + b
 	i3lock -i /home/machado/Imagens/Wallpapers/SBKjnxm.png
 
+# mudo
+XF86AudioMute
+    pactl set-sink-mute 0 toggle
+
+# aumentar volume
+XF86AudioRaiseVolume
+    pactl set-sink-volume 0 +5%
+
+# diminuir volume
+XF86AudioLowerVolume
+    pactl set-sink-volume 0 -5%;
+
 #
 # bspwm hotkeys
 #
