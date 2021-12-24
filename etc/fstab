@@ -1,0 +1,18 @@
+# /dev/sda2
+UUID=0167e711-8fa2-41c6-b6d4-6118bc7336d7	/         	xfs       	rw,relatime,attr2,inode64,logbufs=8,logbsize=32k,noquota	0 1
+
+# /dev/sda1
+UUID=17E0-93A7      	/boot/efi 	vfat      	rw,relatime,fmask=0022,dmask=0022,codepage=437,iocharset=ascii,shortname=mixed,errors=remount-ro	0 2
+
+# /dev/sda3
+UUID=521cf1e8-44e0-44a2-a4ea-d201384788e0	/home     	xfs       	rw,relatime,attr2,inode64,logbufs=8,logbsize=32k,noquota	0 2
+
+# swap
+/swap               	none      	swap      	defaults  	0 0
+
+# shm
+shm        /dev/shm        tmpfs        nodev,nosuid,noexec  0 0
+
+# tmpfs
+tmpfs /var/tmp         tmpfs rw,nosuid,noatime,nodev,size=5G,mode=1777,nr_inodes=0 0 0
+tmpfs		/var/tmp/portage		tmpfs	size=5G,uid=portage,gid=portage,mode=775,nosuid,noatime,nodev,nr_inodes=0	0 0
