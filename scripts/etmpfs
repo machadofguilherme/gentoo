@@ -1,4 +1,4 @@
 #!/bin/sh
 
 systemctl mask tmp.mount
-mount /var/tmp/portage
+mount -o size=8G /var/tmp/portage
