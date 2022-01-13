@@ -1,6 +1,6 @@
 source /usr/share/zsh/themes/powerlevel10k/powerlevel10k.zsh-theme
-source /usr/share/zsh/site-functions/zsh-syntax-highlighting.zsh
-source /usr/share/zsh/site-functions/zsh-autosuggestions.zsh
+source /usr/share/zsh/site-contrib/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+source /usr/share/zsh/site-contrib/zsh-autosuggestions/zsh-autosuggestions.zsh
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
@@ -21,7 +21,7 @@ export HISTFILE="$HOME/.history"
 export SAVEHIST=$HISTSIZE
 setopt hist_ignore_all_dups
 
-alias esync='sudo emerge --sync; reset'
-alias @world='sudo emerge -uNDa @world; sudo emerge -cq'
+alias esync='doas emerge --sync; reset'
+alias @world='doas emerge -uNDaq @world && reset && doas emerge -cq'
 
 ufetch
