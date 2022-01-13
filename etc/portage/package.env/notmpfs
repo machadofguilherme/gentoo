@@ -1,4 +1,0 @@
-dev-lang/spidermonkey		notmpfs.conf
-sys-devel/gcc			notmpfs.conf
-sys-devel/llvm			notmpfs.conf
-sys-devel/clang			notmpfs.conf
