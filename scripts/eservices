@@ -1,7 +1,0 @@
-#!/bin/sh
-
-systemctl --user enable pipewire.socket
-systemctl --user enable wireplumber.service
-systemctl enable NetworkManager
-systemctl enable dhcp
-systemctl enable sddm

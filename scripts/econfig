@@ -4,6 +4,7 @@ echo "pt_BR.UTF8 UTF-8" > /etc/locale.gen
 ln -sf /usr/share/zoneinfo/America/Sao_Paulo /etc/localtime
 timedatectl set-timezone America/Sao_Paulo
 hostnamectl set-hostname Gentoo
+locale-gen
 
 printf "\nExecutar: eselect locale list
-    nExecutar: localectl set-locale pt_BR.UTF-8"
+    nExecutar: localectl set-locale pt_BR.UTF-8\n\n"

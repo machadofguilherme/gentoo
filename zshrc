@@ -1,4 +1,4 @@
-source /usr/share/zsh/themes/powerlevel10k/powerlevel10k.zsh-theme
+source ~/.powerlevel10k/powerlevel10k.zsh-theme
 source /usr/share/zsh/site-functions/zsh-syntax-highlighting.zsh
 source /usr/share/zsh/site-functions/zsh-autosuggestions.zsh
 
@@ -21,7 +21,6 @@ export HISTFILE="$HOME/.history"
 export SAVEHIST=$HISTSIZE
 setopt hist_ignore_all_dups
 
-alias esync='doas emerge --sync; clear'
-alias @world='doas emerge -uNDa @world && clear && doas emerge -cq'
 
-ufetch
+
+pfetch

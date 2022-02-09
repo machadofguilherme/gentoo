@@ -1,6 +1,6 @@
 #!/bin/sh
 
-make -j7 -l4.0 -k && make -j7 -l4.0 -k modules_install && make -j7 -l4.0 -k install
+make -j8 -l8 -k && make -j8 -l8 -k modules_install && make -j8 -l8 -k install
 emerge @module-rebuild
 genkernel --install --kernel-config=.config initramfs
 grub-mkconfig -o /boot/grub/grub.cfg

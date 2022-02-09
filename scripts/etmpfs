@@ -1,4 +1,4 @@
 #!/bin/sh
 
-systemctl mask tmp.mount
-mount -o size=10G /var/tmp/portage
+mkdir -p /var/tmp/portage
+mount -t tmpfs -o size=8G,uid=portage,gid=portage,mode=775,nosuid,noatime,nodev /var/tmp/portage
