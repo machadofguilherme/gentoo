@@ -20,7 +20,3 @@ export HISTSIZE=3000
 export HISTFILE="$HOME/.history"
 export SAVEHIST=$HISTSIZE
 setopt hist_ignore_all_dups
-
-
-
-pfetch

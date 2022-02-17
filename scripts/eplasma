@@ -1,0 +1,3 @@
+#!/bin/sh
+
+emerge plasma-desktop plasma-pa plasma-nm plasma-disks plasma-browser-integration plasma-systemmonitor xdg-desktop-portal-kde powerdevil systemsettings sddm sddm-kcm dhcp

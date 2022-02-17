@@ -1,5 +1,3 @@
 Desabilitar pulseaudio
-pipewire
-wireplumber
-NetworkManager
-sddm
+Ativar pipewire, wireplumber e NetworkManager
+Ativar sddm ou gdm

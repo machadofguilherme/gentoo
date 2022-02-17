@@ -1,0 +1,8 @@
+#!/bin/sh
+
+doas emerge --sync
+sleep 3 && clear
+doas emerge -uNDa @world
+sleep 3 && clear
+doas emerge -cq
+sleep 3 && clear
