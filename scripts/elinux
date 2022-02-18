@@ -1,6 +1,6 @@
 #!/bin/sh
 
-make -j8 -l8 -k && make -j8 -l8 -k modules_install && make -j8 -l8 -k install
+make -j8 -l8 && make -j8 -l8 modules_install && make install
 genkernel --install --kernel-config=.config initramfs
 grub-mkconfig -o /boot/grub/grub.cfg
 emerge @module-rebuild
