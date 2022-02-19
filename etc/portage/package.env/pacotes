@@ -1,0 +1,5 @@
+dev-lang/spidermonkey		j1.conf		notmpfs.conf
+net-libs/webkit-gtk		j1.conf		notmpfs.conf
+sys-devel/gcc			notmpfs.conf
+sys-libs/glibc			notmpfs.conf
+sys-devel/llvm			notmpfs.conf
