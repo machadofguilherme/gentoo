@@ -1,1 +1,1 @@
-media-video/mpv -dvd -lua vaapi libmpv archive
+media-video/mpv -X -xv cli libmpv
