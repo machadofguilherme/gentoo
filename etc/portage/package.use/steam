@@ -123,3 +123,7 @@ virtual/rust abi_x86_32
 dev-lang/rust-bin abi_x86_32
 virtual/jpeg abi_x86_32
 media-libs/libjpeg-turbo abi_x86_32
+
+games-util/steam-client-meta steamfonts trayicon
+games-util/steam-games-meta steamgames_trine2
+games-util/steam-launcher -joystick

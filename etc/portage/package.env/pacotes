@@ -1,5 +1,8 @@
-dev-lang/spidermonkey		j1.conf		notmpfs.conf
-net-libs/webkit-gtk		j1.conf		notmpfs.conf
-sys-devel/gcc			notmpfs.conf
-sys-libs/glibc			notmpfs.conf
-sys-devel/llvm			notmpfs.conf
+sys-devel/llvm			j1.conf		notmpfs.conf
+sys-devel/gcc			j1.conf		notmpfs.conf
+sys-devel/clang			j2.conf		notmpfs.conf
+sys-fs/cryfs			j4.conf
+sys-libs/glibc					notmpfs.conf
+dev-qt/qtwebengine				notmpfs.conf
+dev-db/sqlite								gcc.conf
+sys-apps/bubblewrap							gcc.conf
