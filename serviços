@@ -1,4 +1,3 @@
-Desabilitar pulseaudio
-systemctl disable systemd-networkd.service
-Ativar pipewire, wireplumber e NetworkManager
-Ativar sddm ou gdm
+# systemctl disable systemd-networkd.service
+# systemctl enable NetworkManager gdm/sddm
+$ esound

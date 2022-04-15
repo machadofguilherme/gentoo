@@ -4,7 +4,6 @@ cp -r /gentoo/etc/modprobe.d/i915.conf /etc/modprobe.d/
 cp -r /gentoo/etc/portage/{env,package.env,package.use,make.conf} /etc/portage/
 cp -r /gentoo/etc/sysctl.conf /etc/
 cp -r /gentoo/scripts/{econfig,elinux,esound,etmpfs} /usr/local/bin
-cp -r /gentoo/var/cache/ccache /var/cache/
 cat /gentoo/tmpfs > /etc/fstab
 fallocate -l8G /swap
 chmod 600 /swap
