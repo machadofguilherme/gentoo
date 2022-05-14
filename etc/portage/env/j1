@@ -1,2 +1,0 @@
-EMERGE_DEFAULT_OPTS="--jobs 1 --load-average 1"
-MAKEOPTS="-j1 -l1"

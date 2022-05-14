@@ -1,3 +1,4 @@
-# systemctl disable systemd-networkd.service
-# systemctl enable NetworkManager gdm/sddm
-$ esound
+#!/bin/sh
+
+systemctl disable systemd-networkd.service
+systemctl enable NetworkManager lightdm

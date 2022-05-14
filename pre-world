@@ -1,0 +1,3 @@
+#!/bin/sh
+
+emerge -q  genfstab eclean-kernel eselect-repository doas dev-vcs/git gentoolkit
