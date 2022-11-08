@@ -1,7 +1,7 @@
-sys-devel/llvm			j2		notmpfs
-sys-devel/gcc			j2		notmpfs
-net-libs/nodejs			j2
-x11-libs/wxGTK			j2
-sys-libs/glibc					notmpfs
-net-libs/webkit-gtk		j1		notmpfs
-dev-lang/spidermonkey		j1		notmpfs
+net-libs/webkit-gtk		j1.conf		notmpfs.conf
+dev-lang/spidermonkey		j1.conf		notmpfs.conf
+sys-devel/llvm			j2.conf		notmpfs.conf
+sys-devel/gcc			j2.conf		notmpfs.conf
+x11-libs/wxGTK			j2.conf
+sys-libs/glibc					notmpfs.conf
+

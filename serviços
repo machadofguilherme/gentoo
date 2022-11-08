@@ -1,4 +1,4 @@
 #!/bin/sh
 
 systemctl disable systemd-networkd.service
-systemctl enable NetworkManager lightdm
+systemctl enable NetworkManager gdm
