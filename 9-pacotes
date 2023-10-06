@@ -1,0 +1,3 @@
+#!/bin/sh
+
+emerge vivaldi-snapshot tela-icon-theme flatpak vscode net-im/zoom net-im/discord

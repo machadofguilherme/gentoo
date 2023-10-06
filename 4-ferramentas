@@ -1,0 +1,3 @@
+#!/bin/sh
+
+emerge app-admin/sysklogd app-shells/bash-completion net-misc/chrony sys-fs/btrfs-progs sys-fs/dosfstools sys-block/io-scheduler-udev-rules net-misc/networkmanager

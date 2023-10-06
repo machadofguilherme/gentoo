@@ -1,3 +1,0 @@
-#!/bin/sh
-
-emerge -q vivaldi-snapshot tela-icon-theme flatpak vscode slack net-im/zoom

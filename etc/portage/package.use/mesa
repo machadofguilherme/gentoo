@@ -1,8 +1,0 @@
->=x11-libs/libva-2.14.0 abi_x86_32
->=x11-libs/libvdpau-1.5 abi_x86_32
->=sys-devel/clang-13.0.1:13 abi_x86_32
->=media-libs/libwebp-1.2.2 abi_x86_32
->=virtual/opencl-3-r1 abi_x86_32
->=virtual/libelf-3 abi_x86_32
->=dev-libs/elfutils-0.186 abi_x86_32
->=dev-libs/opencl-icd-loader-2022.01.04 abi_x86_32

@@ -1,9 +1,0 @@
-#!/bin/sh
-
-cp -r /gentoo/etc/portage/{env,package.env,package.use,make.conf} /etc/portage/
-cp -r /gentoo/scripts/{econfig,elinux,esound,etmpfs} /usr/local/bin
-cat /gentoo/tmpfs > /etc/fstab
-fallocate -l10G /swap
-chmod 600 /swap
-mkswap /swap
-swapon /swap

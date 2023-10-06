@@ -1,0 +1,9 @@
+#!/bin/sh
+
+# grub-mkconfig -o /boot/grub/grub.cfg
+# swapoff /swap
+cd /
+umount -l /mnt/gentoo/dev{/shm,/pts,}
+umount -l /mnt/gentoo
+reboot
+

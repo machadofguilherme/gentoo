@@ -1,7 +1,0 @@
-#!/bin/sh
-
-mkdir -p /var/tmp/portage /var/tmp/notmpfs
-chown portage:portage /var/tmp/portage /var/tmp/notmpfs
-chmod 775 /var/tmp/portage /var/tmp/notmpfs
-mount -t tmpfs -o size=10G,uid=portage,gid=portage,mode=775,nosuid,noatime,nodev /var/tmp/portage
-mount -t tmpfs -o size=10G,uid=portage,gid=portage,mode=775,nosuid,noatime,nodev /var/tmp/notmpfs

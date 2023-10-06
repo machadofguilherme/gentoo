@@ -1,6 +1,0 @@
-#!/bin/sh
-
-make -j4 -l3.6 && make modules_install && make install
-genkernel --install --kernel-config=.config initramfs
-emerge @module-rebuild
-grub-mkconfig -o /boot/grub/grub.cfg

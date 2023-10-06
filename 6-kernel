@@ -1,0 +1,9 @@
+#!/bin/sh
+
+mkdir -p /boot/efi
+mount /dev/sda1 /boot/efi
+mount /dev/sda3 /home
+genfstab -U . > /etc/fstab
+emerge sys-kernel/installkernel-gentoo gentoo-kernel-bin linux-firmware intel-microcode grub
+grub-install --target=x86_64-efi --efi-directory=/boot/efi --bootloader-id=Gentoo --recheck
+printf "\n\nnano /etc/default/grub\n\n"

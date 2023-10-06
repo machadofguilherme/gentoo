@@ -1,7 +1,0 @@
-net-libs/webkit-gtk		j1.conf		notmpfs.conf
-dev-lang/spidermonkey		j1.conf		notmpfs.conf
-sys-devel/llvm			j2.conf		notmpfs.conf
-sys-devel/gcc			j2.conf		notmpfs.conf
-x11-libs/wxGTK			j2.conf
-sys-libs/glibc					notmpfs.conf
-
