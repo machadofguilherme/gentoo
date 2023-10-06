@@ -1,9 +1,10 @@
 #!/bin/sh
 
 echo "pt_BR.UTF8 UTF-8" > /etc/locale.gen
-#echo "br-abnt2" | tee /etc/conf.d/keymaps
 echo Gentoo > /etc/hostname
 cp /gentoo/arquivos/doas.conf /etc/
+cp /gentoo/arquivos/conf.d/keymaps /etc/conf.d/
+cp /gentoo/arquivos/conf.d/display-manager /etc/conf.d/
 emerge --config sys-libs/timezone-data
 locale-gen
 passwd
