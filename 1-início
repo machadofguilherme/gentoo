@@ -2,7 +2,7 @@
 
 source /etc/profile
 export PS1="(chroot) ${PS1}"
-cp -r /gentoo/etc/portage/{env,package.env,package.use,make.conf} /etc/portage/
+cp -r /gentoo/arquivos/portage/{env,package.env,package.use,make.conf,sets} /etc/portage/
 cp /gentoo/arquivos/hosts /etc/
 cp /gentoo/arquivos/conf.d/keymaps /etc/conf.d/keymaps
 fallocate -l4G /swap
