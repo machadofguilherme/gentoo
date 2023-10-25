@@ -1,4 +1,4 @@
 #!/bin/sh
 
-emerge @gnome-core
+emerge @kde-core
 # emerge x11-drivers/amdgpu media-libs/vulkan-radeon
