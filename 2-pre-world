@@ -3,4 +3,4 @@
 emerge-webrsync
 emerge genfstab eselect-repository doas dev-vcs/git gentoolkit ccache
 eselect profile list
-printf "\n\neselect profile set X\n\nemerge -uND @world\n\n"
+printf "\n\neselect profile set X\nemerge -uND @world\n\n"

@@ -1,4 +1,7 @@
 #!/bin/sh
 
-emerge @kde-core
+eselect repository enable loatchi guru
+emerge --sync loatchi guru
+
+emerge @gnome-mini
 # emerge x11-drivers/amdgpu media-libs/vulkan-radeon

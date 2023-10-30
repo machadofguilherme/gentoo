@@ -1,0 +1,5 @@
+#!/bin/sh
+
+rm -rf /home/guilherme/.config
+rm -rf /home/guilherme/.local
+rm -rf /home/guilherme/cache

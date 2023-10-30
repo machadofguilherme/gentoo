@@ -2,10 +2,16 @@
 
 echo "pt_BR.UTF8 UTF-8" > /etc/locale.gen
 echo Gentoo > /etc/hostname
+
 cp /gentoo/arquivos/doas.conf /etc/
 cp /gentoo/arquivos/conf.d/keymaps /etc/conf.d/
-cp /gentoo/arquivos/conf.d/display-manager /etc/conf.d/
-emerge --config sys-libs/timezone-data
+cp -r /gentoo/arquivos/portage/repos.conf /etc/portage
+ln -sf ../usr/share/zoneinfo/America/Sao_Paulo /etc/localtime
 locale-gen
+
+rm -rf /var/db/repos/gentoo/
+emerge --sync
+
 passwd
-printf "\n\nExecutar: eselect locale list\n\nenv-update && source /etc/profile && export PS1="(chroot) ${PS1}"\n\n"
+
+printf "\n\nExecutar: eselect locale list\nenv-update && source /etc/profile && export PS1='(chroot) ${PS1}'\n\n"
