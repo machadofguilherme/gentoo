@@ -3,3 +3,10 @@
 rm -rf /home/guilherme/.config
 rm -rf /home/guilherme/.local
 rm -rf /home/guilherme/cache
+rm -rf /home/guilherme/.dbus
+rm -rf /home/guilherme/.gnome
+rm -rf /home/guilherme/.pki
+
+rm /home/guilherme/.ICEauthority
+rm /home/guilherme/.Xauthority
+rm /home/guilherme/.xsession-errors*
