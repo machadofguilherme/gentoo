@@ -8,5 +8,3 @@ set URL "https://raw.githubusercontent.com/JanDeDobbeleer/oh-my-posh/main/themes
 
 oh-my-posh init fish --config $URL | source
 alias top "bashtop"
-
-pfetch

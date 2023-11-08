@@ -2,8 +2,11 @@
 
 source /etc/profile
 export PS1="(chroot) ${PS1}"
-cp -r /gentoo/arquivos/portage/{env,package.env,package.use,package.mask,make.conf,sets} /etc/portage/
+
+mkdir -p /etc/portage/package.accept_keywords
+cp -r /gentoo/arquivos/portage/{env,package.env,package.use,package.mask,package.accept_keywords,make.conf,sets} /etc/portage/
 cp /gentoo/arquivos/hosts /etc/
+
 fallocate -l4G /swap
 chmod 600 /swap
 mkswap /swap

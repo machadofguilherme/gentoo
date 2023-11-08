@@ -1,0 +1,5 @@
+#!/bin/sh
+
+emerge app-shells/fish
+emerge app-shells/fish-command-timer
+emerge app-shells/fish-history-merge

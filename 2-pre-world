@@ -1,6 +1,13 @@
 #!/bin/sh
 
 emerge-webrsync
-emerge genfstab eselect-repository doas dev-vcs/git gentoolkit ccache
+emerge genfstab eselect-repository doas dev-vcs/git gentoolkit ccache eix
+
+rm -rf /var/db/repos/gentoo/
+cp -r /gentoo/arquivos/portage/repos.conf /etc/portage
+emerge --sync
+egencache --jobs=4 --update --repo gentoo
+eix-update
+
 eselect profile list
 printf "\n\neselect profile set X\nemerge -uND @world\n\n"
