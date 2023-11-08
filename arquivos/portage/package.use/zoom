@@ -1,1 +1,171 @@
 net-im/zoom opencl wayland
+# required by x11-wm/mutter-45.1::gentoo
+# required by @gnome-mini (argument)
+>=x11-libs/cairo-1.18.0 X
+# required by x11-wm/mutter-45.1::gentoo
+# required by @gnome-mini (argument)
+>=x11-libs/libxkbcommon-1.6.0 X
+# required by x11-wm/mutter-45.1::gentoo[wayland]
+# required by @gnome-mini (argument)
+>=x11-base/xwayland-23.2.2 libei
+# required by sys-auth/polkit-123::gentoo[systemd]
+# required by gnome-base/gnome-shell-45.1::gentoo
+# required by @gnome-mini (argument)
+>=sys-apps/systemd-254.5 policykit
+# required by gnome-base/nautilus-45.1::gentoo
+# required by gnome-extra/sushi-45.0::gentoo
+>=dev-libs/libportal-0.7.1 gtk
+# required by net-libs/webkit-gtk-2.42.1-r410::gentoo
+# required by gnome-extra/sushi-45.0::gentoo
+# required by gnome-base/nautilus-45.1::gentoo[previewer]
+# required by @gnome-mini (argument)
+>=media-libs/harfbuzz-8.2.2 icu
+# required by app-misc/tracker-miners-3.6.2::gentoo[pdf]
+# required by app-misc/tracker-3.6.0::gentoo[miners]
+# required by gnome-base/nautilus-45.1::gentoo
+# required by gnome-extra/sushi-45.0::gentoo
+>=app-text/poppler-23.11.0 cairo
+# required by net-misc/networkmanager-1.44.2::gentoo[wifi,-iwd]
+# required by gnome-base/gnome-shell-45.1::gentoo[networkmanager]
+# required by @gnome-mini (argument)
+>=net-wireless/wpa_supplicant-2.10-r3 dbus
+# required by x11-misc/xdg-utils-1.1.3_p20210805-r1::gentoo
+# required by gnome-base/gnome-shell-45.1::gentoo
+# required by @gnome-mini (argument)
+>=app-text/xmlto-0.0.28-r11 text
+# required by gnome-base/gnome-control-center-45.1::gentoo
+# required by net-libs/gnome-online-accounts-3.48.0::gentoo[gnome]
+# required by gnome-extra/evolution-data-server-3.50.1::gentoo[gnome-online-accounts]
+# required by gnome-base/gnome-shell-45.1::gentoo
+# required by @gnome-mini (argument)
+>=media-libs/libcanberra-0.30-r7 pulseaudio
+# required by gnome-base/gnome-keyring-42.1-r2::gentoo
+# required by virtual/secret-service-0::gentoo
+# required by app-crypt/libsecret-0.21.1::gentoo
+# required by gnome-extra/nm-applet-1.34.0::gentoo
+# required by gnome-base/gnome-control-center-45.1::gentoo[networkmanager]
+# required by net-libs/gnome-online-accounts-3.48.0::gentoo[gnome]
+# required by gnome-extra/evolution-data-server-3.50.1::gentoo[gnome-online-accounts]
+# required by gnome-base/gnome-shell-45.1::gentoo
+# required by virtual/notification-daemon-0::gentoo[gnome]
+# required by x11-libs/libnotify-0.8.3::gentoo
+# required by gnome-base/gnome-settings-daemon-45.0::gentoo
+# required by gnome-base/gdm-45.0.1::gentoo
+# required by @gnome-mini (argument)
+>=app-crypt/gcr-3.41.1-r2:0 gtk
+# required by media-libs/mesa-23.2.1::gentoo
+# required by x11-libs/gtk+-3.24.38::gentoo[wayland]
+# required by gnome-base/gdm-45.0.1::gentoo
+# required by gnome-base/gnome-shell-45.1::gentoo
+# required by @gnome-mini (argument)
+>=media-libs/libglvnd-1.7.0 X
+# required by gnome-base/gnome-control-center-45.1::gentoo
+# required by gnome-base/gnome-shell-45.1::gentoo
+# required by @gnome-mini (argument)
+>=gui-libs/gtk-4.12.3 X
+# required by x11-base/xwayland-23.2.2::gentoo
+# required by x11-wm/mutter-45.1::gentoo[wayland]
+# required by gnome-base/gnome-shell-45.1::gentoo
+# required by @gnome-mini (argument)
+>=media-libs/libepoxy-1.5.10-r2 X
+# required by x11-base/xwayland-23.2.2::gentoo
+# required by x11-wm/mutter-45.1::gentoo[wayland]
+# required by gnome-base/gnome-shell-45.1::gentoo
+# required by @gnome-mini (argument)
+>=media-libs/mesa-23.2.1 X
+# required by gnome-base/gnome-settings-daemon-45.0::gentoo
+# required by gnome-base/gnome-control-center-45.1::gentoo
+# required by gnome-base/gnome-shell-45.1::gentoo
+# required by @gnome-mini (argument)
+>=x11-libs/gtk+-3.24.38 X
+# required by net-print/cups-filters-1.28.17-r2::gentoo[postscript]
+# required by net-print/cups-2.4.7-r1::gentoo
+# required by www-client/vivaldi-snapshot-6.4.3160.33::gentoo
+# required by vivaldi-snapshot (argument)
+>=app-text/ghostscript-gpl-10.02.0 cups
+# required by net-im/zoom-5.16.5.303::gentoo
+# required by net-im/zoom (argument)
+>=dev-libs/quazip-1.4-r1 qt5
+# required by dev-libs/quazip-1.4-r1::gentoo
+# required by net-im/zoom-5.16.5.303::gentoo
+# required by net-im/zoom (argument)
+>=sys-libs/zlib-1.3-r2 minizip
+# required by www-client/vivaldi-snapshot-6.4.3160.33::gentoo
+# required by vivaldi-snapshot (argument)
+>=x11-libs/pango-1.50.14 X
+# required by app-shells/fish-3.6.1::gentoo
+# required by app-shells/fish-command-timer-0.1.3_p20201002::guru
+# required by app-shells/fish-command-timer (argument)
+>=dev-libs/libpcre2-10.42-r1 pcre32
+# required by dev-python/reportlab-4.0.6::gentoo
+# required by dev-python/svglib-1.5.1::gentoo
+# required by gui-apps/gradience-0.3.0-r1::guru
+# required by gui-apps/gradience (argument)
+>=dev-python/pillow-10.1.0 truetype tiff
+# required by dev-python/pillow-10.1.0::gentoo[-test,tiff]
+# required by dev-python/material-color-utilities-0.1.5::guru
+# required by gui-apps/gradience-0.3.0-r1::guru
+# required by gui-apps/gradience (argument)
+>=media-libs/tiff-4.6.0 jpeg
+# required by dev-qt/qtwayland-6.6.0::gentoo
+>=dev-qt/qtbase-6.6.0-r1 opengl
+# required by dev-qt/qttranslations-6.6.0::gentoo
+# required by dev-qt/qtbase-6.6.0-r1::gentoo[nls]
+# required by dev-qt/qtwayland-6.6.0::gentoo
+>=dev-qt/qttools-6.6.0 opengl
+# required by dev-qt/qtwayland-5.15.11-r1::gentoo
+# required by kde-plasma/kpipewire-9999::kde
+# required by kde-plasma/plasma-desktop-9999::kde[screencast]
+# required by kde-plasma/plasma-meta-9999::kde
+# required by @kde-plasma-live (argument)
+>=dev-qt/qtgui-5.15.11 egl jpeg
+# required by kde-plasma/xdg-desktop-portal-kde-9999::kde
+# required by kde-plasma/plasma-integration-9999::kde
+# required by kde-plasma/plasma-meta-9999::kde
+# required by @kde-plasma-live (argument)
+>=dev-qt/qtprintsupport-5.15.11 cups
+# required by kde-frameworks/plasma-5.111.0::gentoo
+# required by kde-plasma/bluedevil-9999::kde
+# required by @kde-plasma-live (argument)
+>=kde-frameworks/kconfig-5.111.0 qml
+# required by kde-frameworks/kcoreaddons-5.111.0::gentoo
+# required by kde-plasma/bluedevil-9999::kde
+# required by @kde-plasma-live (argument)
+>=dev-qt/qtcore-5.15.11-r1 icu
+# required by kde-plasma/sddm-kcm-9999::kde
+# required by kde-plasma/plasma-meta-9999::kde[display-manager,sddm]
+# required by @kde-plasma-live (argument)
+>=kde-frameworks/kitemmodels-5.111.0 qml
+# required by kde-plasma/plasma-workspace-9999::kde
+# required by kde-plasma/plasma-browser-integration-9999::kde
+# required by kde-plasma/plasma-meta-9999::kde[browser-integration]
+# required by @kde-plasma-live (argument)
+>=kde-frameworks/prison-5.111.0 qml
+# required by media-libs/phonon-vlc-0.11.3-r1::gentoo
+# required by media-libs/phonon-4.11.1-r2::gentoo[vlc]
+# required by kde-plasma/plasma-workspace-9999::kde
+# required by kde-plasma/plasma-browser-integration-9999::kde
+# required by kde-plasma/plasma-meta-9999::kde[browser-integration]
+# required by @kde-plasma-live (argument)
+>=media-video/vlc-3.0.19 ogg
+# required by kde-plasma/plasma-meta-9999::kde
+# required by @kde-plasma-live (argument)
+>=kde-plasma/kwin-9999 lock
+# required by kde-frameworks/qqc2-desktop-style-5.111.0::gentoo
+# required by kde-plasma/plasma-desktop-9999::kde
+# required by kde-plasma/plasma-meta-9999::kde
+# required by @kde-plasma-live (argument)
+>=kde-frameworks/sonnet-5.111.0 qml
+# required by kde-apps/spectacle-9999::kde
+# required by @kde-mini (argument)
+>=dev-qt/qtmultimedia-5.15.11:5 qml
+# required by kde-apps/okular-9999::kde[pdf]
+# required by @kde-mini (argument)
+>=app-text/poppler-23.11.0 nss qt5
+# required by kde-apps/kamoso-9999::kde
+# required by @kde-mini (argument)
+>=media-plugins/gst-plugins-meta-1.20.6 theora vorbis v4l
+# required by media-plugins/gst-plugins-meta-1.20.6::gentoo
+# required by kde-apps/kamoso-9999::kde
+# required by @kde-mini (argument)
+>=media-libs/gst-plugins-base-1.22.3 theora
