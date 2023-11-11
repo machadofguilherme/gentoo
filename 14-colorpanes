@@ -1,0 +1,9 @@
+#!/bin/bash
+
+DESTINO="$HOME/.local/bin"
+
+if [[ ! -d $DESTINO ]]; then
+	mkdir -p $DESTINO
+fi
+
+cp /gentoo/arquivos/colorpanes $DESTINO
