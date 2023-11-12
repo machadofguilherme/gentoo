@@ -8,7 +8,9 @@ cp /gentoo/arquivos/bashrc /home/guilherme/.bashrc
 cp /gentoo/arquivos/config/fish/config.fish /home/guilherme/.config/fish/
 
 cp /gentoo/arquivos/doas.conf /etc/
-ln -sf ../usr/share/zoneinfo/America/Sao_Paulo /etc/localtime
+cp /gentoo/arquivos/conf.d/keymaps /etc/conf.d/
+cp /gentoo/arquivos/conf.d/display-manager /etc/conf.d/
+emerge --config sys-libs/timezone-data
 locale-gen
 
 passwd

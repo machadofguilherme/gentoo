@@ -1,3 +1,8 @@
 #!/bin/sh
 
-systemctl enable NetworkManager sddm chronyd
+rc-update add sysklogd default
+rc-update add NetworkManager default
+rc-update add chronyd default
+rc-update add dbus default
+rc-update add display-manager default
+rc-update add elogind boot
