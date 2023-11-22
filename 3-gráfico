@@ -1,7 +1,7 @@
 #!/bin/sh
 
-eselect repository enable kde guru
-emerge --sync kde guru
+eselect repository enable guru
+emerge --sync guru
 
-emerge @kde-mini
+emerge xfce4-meta x11-misc/lightdm
 # emerge x11-drivers/amdgpu media-libs/vulkan-radeon
