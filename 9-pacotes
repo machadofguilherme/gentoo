@@ -1,7 +1,5 @@
 #!/bin/sh
 
-emerge vivaldi-snapshot \
-    tela-icon-theme flatpak \
-    vscode net-im/zoom net-im/discord
+emerge x11-themes/tela-icon-theme sys-apps/flatpak app-editors/vscode net-im/zoom net-im/discord
 
 exit

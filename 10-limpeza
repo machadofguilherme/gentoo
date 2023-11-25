@@ -10,4 +10,3 @@ rm -rf /home/guilherme/.pki
 rm /home/guilherme/.ICEauthority
 rm /home/guilherme/.Xauthority
 rm /home/guilherme/.xsession-errors*
-exit
