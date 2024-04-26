@@ -1,0 +1,16 @@
+#!/bin/sh
+
+mkdir -p /boot/efi
+mount /dev/nvme0n1p1 /boot/efi
+mount /dev/nvme0n1p3 /home
+
+#genfstab -U . > /etc/fstab
+
+emerge sys-kernel/installkernel gentoo-kernel-bin linux-firmware grub
+
+cat << EOF
+
+  nano /etc/default/grub
+  grub-install --target=x86_64-efi --efi-directory=/boot/efi --bootloader-id=Gentoo --recheck
+
+EOF

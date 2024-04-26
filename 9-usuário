@@ -1,0 +1,4 @@
+#!/bin/sh
+
+useradd -m -G users,wheel,audio,video,portage,usb -s /bin/zsh guilherme
+passwd guilherme

@@ -1,0 +1,5 @@
+#!/bin/sh
+
+mkdir -p /etc/portage/package.accept_keywords
+cp -r /gentoo/arquivos/portage/{package.use,package.mask,make.conf} /etc/portage/
+cp /gentoo/arquivos/hosts /etc/

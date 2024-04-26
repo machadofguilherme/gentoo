@@ -1,0 +1,6 @@
+#!/bin/sh
+
+eselect repository enable guru
+emerge --sync guru
+emerge kde-plasma/plasma-meta
+emerge kde-apps/konsole kde-apps/spectacle kde-apps/okular kde-apps/kate kde-apps/kcalc kde-apps/dolphin kde-apps/gwenview

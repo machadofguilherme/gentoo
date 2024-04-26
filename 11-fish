@@ -1,3 +1,0 @@
-#!/bin/sh
-
-emerge app-shells/fish app-shells/fish-command-timer app-shells/fish-history-merge

@@ -1,0 +1,3 @@
+#!/bin/sh
+
+emerge app-shells/zsh app-shells/zsh-completions app-shells/gentoo-zsh-completions app-doc/zsh-lovers

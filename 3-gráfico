@@ -1,8 +1,0 @@
-#!/bin/sh
-
-eselect repository enable guru loatchi
-emerge --sync guru loatchi
-
-emerge media-libs/mesa x11-base/xorg-server
-emerge @gnome-mini
-# emerge x11-drivers/amdgpu media-libs/vulkan-radeon

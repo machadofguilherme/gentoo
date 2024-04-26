@@ -3,10 +3,6 @@
 echo "pt_BR.UTF8 UTF-8" > /etc/locale.gen
 echo Gentoo > /etc/hostname
 
-mkdir -p /home/guilherme/.config/fish/
-cp /gentoo/arquivos/bashrc /home/guilherme/.bashrc
-cp /gentoo/arquivos/config/fish/config.fish /home/guilherme/.config/fish/
-
 cp /gentoo/arquivos/doas.conf /etc/
 cp /gentoo/arquivos/conf.d/keymaps /etc/conf.d/
 cp /gentoo/arquivos/conf.d/display-manager /etc/conf.d/

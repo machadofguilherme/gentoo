@@ -6,7 +6,7 @@ emerge sys-fs/genfstab app-eselect/eselect-repository app-admin/doas dev-vcs/git
 rm -rf /var/db/repos/gentoo/
 cp -r /gentoo/arquivos/portage/repos.conf /etc/portage
 emerge --sync
-egencache --jobs=8 --update --repo gentoo
+egencache --jobs=16 --update --repo gentoo
 eix-update
 
 eselect profile list
