@@ -1,3 +1,3 @@
 #!/bin/sh
 
-emerge x11-themes/tela-icon-theme sys-apps/flatpak app-editors/vscode net-im/zoom net-im/discord dev-util/insomnia-bin net-libs/nodejs sys-apps/yarn
+emerge x11-themes/tela-icon-theme sys-apps/flatpak app-editors/vscode net-im/zoom net-im/discord dev-util/insomnia-bin net-libs/nodejs media-fonts/fonts-meta media-fonts/noto-emoji

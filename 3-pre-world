@@ -1,7 +1,7 @@
 #!/bin/sh
 
 emerge-webrsync
-emerge sys-fs/genfstab app-eselect/eselect-repository app-admin/doas dev-vcs/git app-portage/gentoolkit dev-util/ccache app-portage/eix
+emerge sys-fs/genfstab app-eselect/eselect-repository app-admin/doas dev-vcs/git app-portage/gentoolkit dev-util/ccache app-portage/eix app-admin/eclean-kernel
 
 rm -rf /var/db/repos/gentoo/
 cp -r /gentoo/arquivos/portage/repos.conf /etc/portage
