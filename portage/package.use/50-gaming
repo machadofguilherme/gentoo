@@ -1,0 +1,12 @@
+# /etc/portage/package.use/50-gaming
+
+# SDL2 — pulseaudio pelo mesmo motivo do GStreamer acima (via pipewire-pulse)
+# vulkan: para jogos que usam SDL2 + Vulkan diretamente
+media-libs/libsdl2      pulseaudio vulkan
+
+# Flatpak — Steam; sem X11 no sistema base
+sys-apps/flatpak        -X
+
+# gamemode — daemon da Feral; eleva prioridade de CPU/GPU durante o jogo
+# sem dependências extras; integra com Steam via variável de ambiente
+games-util/gamemode     -X

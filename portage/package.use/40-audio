@@ -1,0 +1,15 @@
+# /etc/portage/package.use/40-audio
+
+# PipeWire — sound-server: ativa o modo substituto do PulseAudio
+# v4l2: necessário para o cheese enxergar a webcam via PipeWire
+# alsa: PipeWire fala com o kernel ALSA por baixo
+# -jack: sem suporte a JACK (produção de áudio profissional)
+media-video/pipewire       sound-server alsa v4l2 -bluetooth -jack
+
+# WirePlumber — session manager do PipeWire
+media-video/wireplumber    -bluetooth
+
+# GStreamer — pulseaudio aqui NÃO instala PulseAudio
+# Faz o GStreamer usar o socket pulse do PipeWire (pipewire-pulse)
+# Sem isso, apps GNOME que usam GStreamer podem perder áudio
+media-libs/gst-plugins-good pulseaudio

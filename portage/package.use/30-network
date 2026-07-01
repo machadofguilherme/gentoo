@@ -1,0 +1,7 @@
+# /etc/portage/package.use/30-network
+
+# NetworkManager — WiFi puro; sem modem celular, sem PPP, sem bluetooth
+net-misc/networkmanager     wifi -bluetooth -modemmanager -ppp
+
+# wpa_supplicant — backend de WiFi; dbus para integração com NM
+net-wireless/wpa_supplicant dbus

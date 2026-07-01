@@ -1,0 +1,7 @@
+# /etc/portage/package.accept_keywords/10-kernel
+# CachyOS overlay — live ebuilds
+=sys-kernel/cachyos-kernel-9999 **
+=sys-kernel/cachyos-sources-9999 **
+
+# Dependência do CachyOS overlay — patches e configs
+=sys-kernel/cachyos-settings-9999 **

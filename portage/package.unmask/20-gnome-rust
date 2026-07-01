@@ -1,0 +1,5 @@
+# /etc/portage/package.unmask/20-gnome-rust
+# Caso algum crate Rust das dependências do papers/loupe esteja
+# mascarado como "unstable" demais até pela própria ~amd64
+
+# Mesmo princípio — preencher reativamente

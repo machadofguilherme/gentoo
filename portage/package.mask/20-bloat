@@ -1,0 +1,19 @@
+# /etc/portage/package.mask/20-bloat
+# Coisas que costumam entrar "de carona" em sistemas GNOME completos
+
+# Tracker — indexador de arquivos; consome CPU/disco em background
+# sem ele, busca de arquivos no Nautilus fica mais simples, mas você não usa
+# indexação pesada de qualquer forma
+app-misc/tracker
+app-misc/tracker-miners
+
+# Impressão — redundante com -cups global, mas bloqueio explícito
+# evita reentrada via alguma dependência GNOME
+net-print/cups
+net-print/cups-filters
+
+# Bluetooth — mesmo motivo, redundância de segurança
+net-wireless/bluez
+
+# sudo — substituído pelo doas
+app-admin/sudo

@@ -1,0 +1,16 @@
+# /etc/portage/package.use/20-gnome
+
+# GDM — sem XDMCP (login remoto que você não vai usar)
+gnome-base/gdm                      -xdmcp
+
+# Mutter — explícito; alguns builds antigos ainda defaultam pro X
+x11-wm/mutter                       wayland
+
+# Shell + Control Center — NetworkManager integrado; sem bluetooth/cups
+gnome-base/gnome-shell              networkmanager
+gnome-base/gnome-control-center     networkmanager -bluetooth
+gnome-base/gnome-settings-daemon    networkmanager
+
+# WebKitGTK — motor do GNOME Maps e outros apps GNOME
+# sem wayland explícito aqui, apps GNOME quebram em Wayland-only
+net-libs/webkit-gtk                 wayland
