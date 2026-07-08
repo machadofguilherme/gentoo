@@ -1,6 +1,0 @@
-# /etc/portage/package.mask/30-x11-leftovers
-# Qualquer coisa que dependa pesadamente de X mesmo com USE=-X
-# previne reentrada via dependências legadas
-
-x11-apps/xterm
-x11-terms/xterm

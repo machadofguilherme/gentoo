@@ -1,8 +1,0 @@
-# /etc/portage/package.unmask/10-cachyos
-# Caso o overlay CachyOS marque algo como mascarado por ser experimental
-# (acontece com patches BORE muito recentes em fase de teste)
-
-# Exemplo — só necessário se o emerge reclamar de mask:
-# =sys-kernel/cachyos-sources-9999 ~amd64
-
-# Deixe vazio por enquanto; preenchemos se aparecer um erro de "masked by"

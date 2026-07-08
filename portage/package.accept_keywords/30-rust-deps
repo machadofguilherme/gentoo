@@ -1,7 +1,0 @@
-# /etc/portage/package.accept_keywords/30-rust-deps
-# Apps GNOME em Rust puxam crates como dependências
-# O Portage no Gentoo gerencia crates via ebuilds individuais
-# Alguns deles só existem como ~amd64 ou live no overlay GURU
-
-# Se o emerge reclamar de algum dev-libs/rust-* ou dev-lang/rust:
-dev-lang/rust **

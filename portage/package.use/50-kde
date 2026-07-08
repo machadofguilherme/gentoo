@@ -1,0 +1,18 @@
+kde-frameworks/kwindowsystem X
+dev-qt/qtbase X cups eglfs
+x11-libs/libxkbcommon X
+kde-plasma/plasma-workspace X
+sys-apps/dbus X
+media-libs/libepoxy X
+media-libs/mesa X
+sys-libs/zlib minizip
+dev-qt/qtmultimedia X eglfs
+media-video/pipewire flatpak
+kde-plasma/kwin lock
+media-video/mpv X
+media-plugins/gst-plugins-meta theora v4l -dvd
+media-libs/gst-plugins-base theora
+media-libs/libsdl -alsa
+media-libs/libsdl2 -alsa
+media-video/mpv -alsa -dvd
+media-libs/vulkan-loader X
